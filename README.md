@@ -10,3 +10,10 @@ preparation:
    <pre>virtualenv -p python3 .venv</pre>
    <pre>source .venv/bin/activate</pre>
    <pre>pip3 install -r requirements.txt</pre>
+
+run test on jmeter executor:
+   <pre>bzt bzt_jmeter_test.yml</pre>
+
+run test on tung executor:
+   <pre>bzt bzt_tsung_test.yml</pre>
+
