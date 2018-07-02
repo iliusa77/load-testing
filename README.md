@@ -23,4 +23,9 @@ run test on tsung executor:
 run test on apache benchmark executor:
    <pre>bzt bzt_ab_test.yml</pre>
 
+run test on siege executor:
+   <pre>bzt bzt_siege_test.yml</pre>
+
+
+
 
