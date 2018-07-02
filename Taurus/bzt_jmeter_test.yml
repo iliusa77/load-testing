@@ -1,0 +1,13 @@
+execution:
+- concurrency: 1000
+  ramp-up: 1m
+  hold-for: 5m
+  scenario: quick-test
+
+scenarios:
+  quick-test:
+    requests:
+    - https://www.webperformance.com/
+    - https://www.webperformance.com/load-testing-tools/blog/
+    - https://www.webperformance.com/load-testing-consulting-services/
+    - https://www.webperformance.com/support/

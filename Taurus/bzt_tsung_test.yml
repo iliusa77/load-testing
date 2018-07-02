@@ -1,0 +1,16 @@
+execution:
+- executor: tsung
+  concurrency: 500
+  hold-for: 5m
+  scenario: sample
+  
+scenarios:
+  sample:
+    default-address: https://www.webperformance.com
+    requests:
+      - /
+      - /load-testing-tools/blog/
+      - /load-testing-consulting-services/
+      - /support/
+
+
