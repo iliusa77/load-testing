@@ -8,7 +8,7 @@ preparation:
    <pre>sudo add-apt-repository ppa:tsung/stable -y</pre>
    <pre>sudo add-apt-repository ppa:webupd8team/java -y</pre>
    <pre>sudo apt update</pre>
-   <pre>sudo apt install -y libxml2-dev libxslt-dev python3-dev python3-pip python-virtualenv apache2-utils siege tsung oracle-java8-installer oracle-java8-set-default</pre>
+   <pre>sudo apt install -y unzip curl libxml2-dev libxslt-dev python3-dev python3-pip python-virtualenv apache2-utils siege tsung oracle-java8-installer oracle-java8-set-default</pre>
    <pre>cd Taurus</pre>
    <pre>virtualenv -p python3 .venv</pre>
    <pre>source .venv/bin/activate</pre>
@@ -28,4 +28,11 @@ run test on siege executor:
 
 
 
+## SmartMeter
 
+Tested on Ubuntu 14
+
+preparation:
+   <pre>cd SmartMeter</pre>
+   <pre>curl -o SmartMeter_1.7.0_linux.zip http://smartmeter-api.etnetera.cz/download/release/1.7.0/linux/full/SmartMeter_1.7.0_linux.zip</pre>
+   <pre>unzip SmartMeter_1.7.0_linux.zip && rm -rf SmartMeter_1.7.0_linux.zip</pre>
